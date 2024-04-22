@@ -5,4 +5,7 @@ public class CalculadoraMedia {
         return a+b;
     }
 
+    public double Media(int a, int b){
+        return (double) Soma(a, b) /2;
+    }
 }
